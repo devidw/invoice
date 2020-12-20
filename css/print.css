@@ -2,6 +2,11 @@
   display: none !important;
 }
 
+:root {
+  /* colors */
+  --print-color-a: cyan;
+}
+
 /* textarea values will be displayed inside paragraphs when printing */
 textarea {
   display: none;
@@ -12,6 +17,10 @@ input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
   -webkit-appearance: none;
   display: none;
+}
+
+a {
+  color: var(--print-color-a);
 }
 
 td p {
