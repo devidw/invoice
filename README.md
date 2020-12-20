@@ -62,4 +62,5 @@ Per default the invoice number is the current UNIX timestamp and invoice as well
   - [Flexbox Grid](http://flexboxgrid.com)
   - [normalize.css](https://necolas.github.io/normalize.css/)
   - [Material Icons](https://material.io/resources/icons/)
+  - [Google Fonts](https://fonts.google.com/)
   - [stackoverflow](https://stackoverflow.com) for a lot of useful extensions in ```/js/utilities.js```
