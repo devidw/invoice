@@ -13,8 +13,6 @@
   --edge-right: 1cm;
   --edge-bottom: .5cm;
   --edge-left: 2.5cm;
-  /* other */
-  --currency: '€';
 }
 
 *, *::before, *::after {
