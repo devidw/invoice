@@ -1,0 +1,146 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/flexboxgrid.css');
+@import url('./material-icons.css');
+@import url('./screen.css') screen;
+@import url('./print.css') print;
+
+:root {
+  /* format & orientation */
+  --doc-width: 210mm;
+  --doc-height: 297mm;
+  /* edges */
+  --edge-top: 2.7cm;
+  --edge-right: 1cm;
+  --edge-bottom: .5cm;
+  --edge-left: 2.5cm;
+  /* other */
+  --currency: '€';
+}
+
+*, *::before, *::after {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== page format ===== */
+#invoice {
+  width: var(--doc-width);
+  height: var(--doc-height);
+  padding-top: var(--edge-top);
+  padding-right: var(--edge-right);
+  padding-bottom: var(--edge-bottom);
+  padding-left: var(--edge-left);
+}
+
+/* ===== bottom footer ===== */
+#invoice article {
+  height: calc(var(--doc-height) - var(--edge-top) - 3 * 1.2rem);
+}
+
+input, textarea {
+  border: none;
+}
+
+textarea, input {
+  width: 100%;
+}
+
+/* ===== typo ===== */
+body {
+  font-family: sans-serif;
+  font-size: 11pt;
+}
+
+textarea, p {
+  font-size: 12pt;
+}
+
+textarea[data-lang="seller-address-placeholder"],
+p[data-print-p="seller-address-placeholder"],
+textarea[data-lang="invoice-note-placeholder"],
+p[data-print-p="invoice-note-placeholder"],
+footer textarea,
+footer p {
+  font-size: 9pt;
+}
+
+label {
+  font-weight: bolder;
+}
+
+/* ===== text alignment ===== */
+input[type='number'],
+input[type='text'],
+textarea[data-lang="invoice-note-placeholder"],
+p[data-print-p="invoice-note-placeholder"],
+#itemsTotalPriceLabel {
+  text-align: right;
+  /* background: red; */
+}
+
+#invoiceNumber {
+  text-align: left;
+}
+
+input[data-lang="item-unit-placeholder"] {
+  text-align: left;
+}
+
+/* ===== footer ===== */
+footer {
+  border-top: .5mm solid black;
+}
+
+/* ===== table ===== */
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  border-bottom-style: solid;
+}
+
+th {
+  padding-bottom: 1mm;
+  border-bottom-width: .7mm;
+}
+
+tbody td {
+  padding: 1mm 0;
+  border-bottom-width: .5mm;
+  vertical-align: top;
+}
+
+th + th, td + td {
+  padding-left: 2mm;
+}
+
+th[data-lang="item-position"] {
+  width: 5%;
+}
+
+th[data-lang="item-description"] {
+  width: 45%;
+}
+
+th[data-lang="item-amount"] {
+  width: 5%;
+}
+
+th[data-lang="item-unit"] {
+  width: 15%;
+}
+
+th[data-lang="item-price"] {
+  width: 15%;
+}
+
+th[data-lang="item-price-sum"] {
+  width: 15%;
+}

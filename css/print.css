@@ -1,0 +1,31 @@
+*[data-print="false"] {
+  display: none !important;
+}
+
+/* textarea values will be displayed inside paragraphs when printing */
+textarea {
+  display: none;
+}
+
+/* https://stackoverflow.com/a/41257977/13765033 */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+td p {
+  margin: 0;
+}
+
+p td {
+  border: none !important;
+}
+
+p tr td:first-of-type {
+  font-weight: bolder;
+}
+
+[data-print-p="payment-placeholder"] > br {
+  display: none;
+}
