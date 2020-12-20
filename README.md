@@ -20,7 +20,7 @@ A simple tool to generate invoices right from your browser by using its print AP
 |PDF|call print dialog|
 |🖩|calculate item position numbers, item prices and total price|
 
-Working with the invoice item selected by the position input:
+Working with the invoice item selected with the position input:
 
 |button|action|
 |:---:|---|
