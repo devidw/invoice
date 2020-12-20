@@ -27,6 +27,6 @@ export default {
     </tr>
   </table>`,
   "footer-1-placeholder": "Company Name\nStreet No. 1\n12345 City",
-  "footer-2-placeholder": "<a href='tel:'>+1-541-754-3010</a>\n<a href='mailto:info@example.com'>info@example.com</a>\n<a href='https://example.com'>example.com</a>",
+  "footer-2-placeholder": "<a href='tel:'>+1-541-754-3010</a>\n<a href='mailto:'>info@example.com</a>\n<a href='https://example.com'>example.com</a>",
   "footer-3-placeholder": "Even more space"
 }

@@ -1,9 +1,24 @@
+/* Cabin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 1 999;
+  src: url(../fonts/Cabin-VariableFont_wdth,wght.ttf) format('truetype');
+}
+
+/* Cabin Italic */
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  src: url(../fonts/Cabin-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+}
+
 /* https://fonts.googleapis.com/css?family=Material+Icons+Outlined */
 @font-face {
   font-family: 'Material Icons Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/material-icons-outlined.woff2) format('woff2');
+  src: url(../fonts/Material-Icons-Outlined.woff2) format('woff2');
 }
 
 .material-icons-outlined {

@@ -1,6 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/flexboxgrid.css');
-@import url('./material-icons.css');
+@import url('./fonts.css');
 @import url('./screen.css') screen;
 @import url('./print.css') print;
 
@@ -45,7 +45,7 @@ textarea, input {
 
 /* ===== typo ===== */
 body {
-  font-family: sans-serif;
+  font-family: 'Cabin', fantasy;
   font-size: 11pt;
 }
 
