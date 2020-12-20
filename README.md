@@ -1,4 +1,4 @@
-# **Invoice Generator**
+# **[Invoice Generator](https://devidwolf.github.io/invoice-generator/)**
 A simple tool to generate invoices right from your browser by using its print API for PDF saving.
 
 ---
