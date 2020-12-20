@@ -49,11 +49,13 @@ Per default the invoice number is the current UNIX timestamp and invoice as well
 ## **Notes**
 - best experience in Chromium based browsers (Chrome, Edge, Opera)
 - recommended printing settings (Chromium):
+
 |option|value|
 |---|---|
 |Paper size|A4|
 |Margins|None|
 
+---
 
 ## **thx vendors**
   - [jQuery](http://jquery.com)
