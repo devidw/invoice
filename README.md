@@ -44,8 +44,7 @@ Per default the invoice number is the current UNIX timestamp and invoice as well
 
 
 ## **Notes**
-- best experience in Chromium based browsers (Chrome, Edge, Opera)
-- recommended printing settings (Chromium):
+Best experience in Chromium based browsers (Chrome, Edge, Opera), recommended printing settings for these browsers are as following:
 
 |option|value|
 |---|---|
