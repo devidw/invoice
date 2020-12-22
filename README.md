@@ -1,13 +1,12 @@
 # **[Invoice Generator](https://devidwolf.github.io/invoice/)**
-A simple tool to generate invoices right from your browser by using its print API for PDF saving.
+Simple tool to generate invoices right from your browser by using its print API for PDF saving.
 
 
 ## **Features**
 - complete manipulation of invoice items (edit, clone, delete, order)
-- automatic calculations of item price and total price
-- custom inline html (e.g. use hyperlinks for: [Web](https://example.com), [PayPal.Me](https://paypal.me), `mailto:`, `tel:`)
-- switch between different languages
-- useable offline
+- automatic calculations prices
+- custom inline html (e.g. use hyperlinks for: `mailto:`, `tel:`)
+- load different languages
 
 
 ## **How to**
