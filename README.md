@@ -1,15 +1,15 @@
-# **[Invoice Generator](https://devidwolf.github.io/invoice/)**
+# [Invoice Generator](https://devidwolf.github.io/invoice/)
 Simple tool to generate invoices right from your browser by using its print API for PDF saving.
 
 
-## **Features**
+## Features
 - complete manipulation of invoice items (edit, clone, delete, order)
 - automatic calculations prices
 - custom inline html (e.g. use hyperlinks for: `mailto:`, `tel:`)
 - load different languages
 
 
-## **How to**
+## How to
 
 ### use the toolbar
 |button|action|
@@ -42,7 +42,7 @@ By default sizes and layouts match paper format *DIN A4* and page margins follow
 Per default the invoice number is the current UNIX timestamp and invoice as well as delivery date equal todays date, while the due date is 30 days in the future from today. All that can be modified in `/js/init.js`.
 
 
-## **Notes**
+## Notes
 Best experience in Chromium based browsers (Chrome, Edge, Opera), recommended printing settings for these browsers are as following:
 
 |option|value|
@@ -51,7 +51,7 @@ Best experience in Chromium based browsers (Chrome, Edge, Opera), recommended pr
 |Margins|None|
 
 
-## **Vendor**
+## Vendor
   - [jQuery](http://jquery.com)
   - [Flexbox Grid](http://flexboxgrid.com)
   - [normalize.css](https://necolas.github.io/normalize.css/)
