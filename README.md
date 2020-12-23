@@ -51,7 +51,7 @@ Best experience in Chromium based browsers (Chrome, Edge, Opera), recommended pr
 |Margins|None|
 
 
-## **Vendors**
+## **Vendor**
   - [jQuery](http://jquery.com)
   - [Flexbox Grid](http://flexboxgrid.com)
   - [normalize.css](https://necolas.github.io/normalize.css/)
