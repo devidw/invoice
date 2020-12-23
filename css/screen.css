@@ -2,17 +2,6 @@
   display: none !important;
 }
 
-:root {
-  /* colors */
-  --screen-color-bg: rgba(82, 86, 89, 1);
-  --screen-color-bg-bar: rgba(50, 54, 57, 1);
-  --screen-color-action: #800;
-  --screen-color-accent: #eee;
-  --screen-color-accent-sec: #ddd;
-  /* sizes */
-  --btn-bar-height: 50px;
-}
-
 body {
   /* padding-top: var(--btn-bar-height);
   padding-top: calc((100vh - var(--doc-height)) / 2 + var(--btn-bar-height)); */

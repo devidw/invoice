@@ -2,11 +2,6 @@
   display: none !important;
 }
 
-:root {
-  /* colors */
-  --print-color-a: cyan;
-}
-
 /* textarea values will be displayed inside paragraphs when printing */
 textarea {
   display: none;

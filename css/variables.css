@@ -1,0 +1,22 @@
+:root {
+  /* format & orientation */
+  --doc-width: 210mm;
+  --doc-height: 297mm;
+  /* edges */
+  --edge-top: 2.7cm;
+  --edge-right: 1cm;
+  --edge-bottom: .5cm;
+  --edge-left: 2.5cm;
+
+  /* screen colors */
+  --screen-color-bg: rgba(82, 86, 89, 1);
+  --screen-color-bg-bar: rgba(50, 54, 57, 1);
+  --screen-color-action: #800;
+  --screen-color-accent: #eee;
+  --screen-color-accent-sec: #ddd;
+  /* screen sizes */
+  --btn-bar-height: 50px;
+
+  /* print colors */
+  --print-color-a: darkcyan;
+}

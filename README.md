@@ -36,7 +36,7 @@ Some data like your address, contact as well as paying details are pretty much s
 4. update path of import statement in `/js/lang.js` to match the new filename
 
 ### adjust page format
-By default sizes and layouts match paper format *DIN A4* and page margins follow *DIN 5008*. For other standards, change CSS root variables in `/css/master.css` to your preferred sizes for page dimensions and margins.
+By default sizes and layouts match paper format *DIN A4* and page margins follow *DIN 5008*. For other standards, change CSS variables in `/css/variables.css` to your preferred sizes for page dimensions, margins etc..
 
 ### modify logic for default invoice no. and dates
 Per default the invoice number is the current UNIX timestamp and invoice as well as delivery date equal todays date, while the due date is 30 days in the future from today. All that can be modified in `/js/init.js`.

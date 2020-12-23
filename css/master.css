@@ -1,19 +1,9 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/flexboxgrid.css');
+@import url('./variables.css');
 @import url('./fonts.css');
 @import url('./screen.css') screen;
 @import url('./print.css') print;
-
-:root {
-  /* format & orientation */
-  --doc-width: 210mm;
-  --doc-height: 297mm;
-  /* edges */
-  --edge-top: 2.7cm;
-  --edge-right: 1cm;
-  --edge-bottom: .5cm;
-  --edge-left: 2.5cm;
-}
 
 *, *::before, *::after {
   padding: 0;
@@ -45,12 +35,8 @@ textarea, input {
 
 /* ===== typo ===== */
 body {
-  font-family: 'Cabin', fantasy;
+  font-family: 'Signika', fantasy;
   font-size: 11pt;
-}
-
-textarea, p {
-  font-size: 12pt;
 }
 
 textarea[data-lang="seller-address-placeholder"],
@@ -98,15 +84,12 @@ table {
 
 th {
   text-align: left;
+  padding-bottom: 1mm;
+  border-bottom-width: .7mm;
 }
 
 th, td {
   border-bottom-style: solid;
-}
-
-th {
-  padding-bottom: 1mm;
-  border-bottom-width: .7mm;
 }
 
 tbody td {

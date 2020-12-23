@@ -1,16 +1,9 @@
-/* Cabin */
+/* https://fonts.google.com/specimen/Signika */
 @font-face {
-  font-family: 'Cabin';
+  font-family: 'Signika';
   font-style: normal;
   font-weight: 1 999;
-  src: url(../fonts/Cabin-VariableFont_wdth,wght.ttf) format('truetype');
-}
-
-/* Cabin Italic */
-@font-face {
-  font-family: 'Cabin';
-  font-style: italic;
-  src: url(../fonts/Cabin-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+  src: local('Signika'), url(../fonts/Signika-VariableFont_wght.ttf) format('truetype');
 }
 
 /* https://fonts.googleapis.com/css?family=Material+Icons+Outlined */
