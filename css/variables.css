@@ -2,11 +2,14 @@
   /* format & orientation */
   --doc-width: 210mm;
   --doc-height: 297mm;
-  /* edges */
-  --edge-top: 2.7cm;
-  --edge-right: 1cm;
-  --edge-bottom: .5cm;
-  --edge-left: 2.5cm;
+  /* margins */
+  --margin-top: 2.7cm;
+  --margin-right: 1cm;
+  --margin-bottom: .5cm;
+  --margin-left: 2.5cm;
+
+  /* update with JavaScript */
+  --footer-height: 0px;
 
   /* screen colors */
   --screen-color-bg: rgba(82, 86, 89, 1);
@@ -18,5 +21,5 @@
   --btn-bar-height: 50px;
 
   /* print colors */
-  --print-color-a: darkcyan;
+  --print-color-a: #0645AD; /* Wikipedia link blue */
 }

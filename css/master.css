@@ -14,15 +14,17 @@
 #invoice {
   width: var(--doc-width);
   height: var(--doc-height);
-  padding-top: var(--edge-top);
-  padding-right: var(--edge-right);
-  padding-bottom: var(--edge-bottom);
-  padding-left: var(--edge-left);
+  padding-top: var(--margin-top);
+  padding-right: var(--margin-right);
+  padding-bottom: var(--margin-bottom);
+  padding-left: var(--margin-left);
+  /* background: lime; */
 }
 
-/* ===== bottom footer ===== */
-#invoice article {
-  height: calc(var(--doc-height) - var(--edge-top) - 3 * 1.2rem);
+/* ===== keep footer where it belongs  ===== */
+article {
+  min-height: calc(var(--doc-height) - var(--margin-top) - var(--footer-height));
+  /* background: green; */
 }
 
 input, textarea {
@@ -35,7 +37,7 @@ textarea, input {
 
 /* ===== typo ===== */
 body {
-  font-family: 'Signika', fantasy;
+  font-family: 'Signika', sans-serif;
   font-size: 11pt;
 }
 
@@ -73,6 +75,7 @@ input[data-lang="item-unit-placeholder"] {
 /* ===== footer ===== */
 footer {
   border-top: .5mm solid black;
+  /* background: red; */
 }
 
 /* ===== table ===== */
@@ -98,7 +101,7 @@ tbody td {
   vertical-align: top;
 }
 
-th + th, td + td {
+th+th, td+td {
   padding-left: 2mm;
 }
 

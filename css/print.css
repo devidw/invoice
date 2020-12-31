@@ -18,6 +18,11 @@ a {
   color: var(--print-color-a);
 }
 
+/* somehow footer is not on his screen position when printing */
+footer {
+  margin-top: -1rem;
+}
+
 td p {
   margin: 0;
 }
