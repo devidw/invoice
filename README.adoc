@@ -2,7 +2,7 @@
 
 :toc:
 
-Simple tool to generate invoices right from your browser by using its print API for PDF saving (see https://devidwolf.github.io/invoice/[Demo]).
+Simple tool to generate invoices right from your browser by using its print API for PDF saving (see https://devidw.github.io/invoice/[Demo]).
 
 image::Sample.webp[Sample Output, width=240px]
 
